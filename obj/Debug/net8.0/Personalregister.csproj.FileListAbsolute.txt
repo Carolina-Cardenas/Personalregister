@@ -1,0 +1,14 @@
+/Users/Carolina/LEXICON/Personalregister/bin/Debug/net8.0/Personalregister
+/Users/Carolina/LEXICON/Personalregister/bin/Debug/net8.0/Personalregister.deps.json
+/Users/Carolina/LEXICON/Personalregister/bin/Debug/net8.0/Personalregister.runtimeconfig.json
+/Users/Carolina/LEXICON/Personalregister/bin/Debug/net8.0/Personalregister.dll
+/Users/Carolina/LEXICON/Personalregister/bin/Debug/net8.0/Personalregister.pdb
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/Personalregister.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/Personalregister.AssemblyInfoInputs.cache
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/Personalregister.AssemblyInfo.cs
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/Personalregister.csproj.CoreCompileInputs.cache
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/Personalregister.dll
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/refint/Personalregister.dll
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/Personalregister.pdb
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/Personalregister.genruntimeconfig.cache
+/Users/Carolina/LEXICON/Personalregister/obj/Debug/net8.0/ref/Personalregister.dll
