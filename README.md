@@ -11,13 +11,13 @@ Programmet har tre klasser:
 - `EmployeeRegister` håller en lista med anställda.
 - `Program` visar menyn och läser det användaren skriver.
 
-## Uppgift 2 – Egenskaper och metoder
+## Uppgift 2 – Attribut och metoder
 
 ### Employee
 
 - `Name` är den anställdas namn. Typen `string` används för text.
 - `Salary` är den anställdas lön. Typen `decimal` används för tal med decimaler.
-- `Employee(name, salary)` skapar en anställd med namn och lön.
+- `new Employee()` skapar en anställd. Sedan fyller programmet i `Name` och `Salary`.
 
 ### EmployeeRegister
 
@@ -51,7 +51,8 @@ Namn: Anna | Lön: 25000,50 SEK
 ```
 
 Namnet får inte vara tomt och lönen får inte vara negativ.
-Om du skriver fel ber programmet dig att försöka igen.
+Om du skriver fel visas ett meddelande och du kommer tillbaka till menyn.
+Välj `1` igen för att försöka på nytt.
 
 Välj `0` för att avsluta. Uppgifterna försvinner när programmet stängs.
 
@@ -69,3 +70,5 @@ dotnet run
 - Lägg till en till anställd och kontrollera att båda visas.
 - Prova ett tomt namn, en negativ lön och bokstäver som lön.
 - Avsluta med `0`.
+
+Automatiserade tester ingår inte i den här versionen.

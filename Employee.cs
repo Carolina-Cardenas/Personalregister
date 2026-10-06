@@ -1,30 +1,14 @@
-namespace Personalregister;
-
-/// <summary>
-/// Representerar en anställd med namn och lön.
-/// </summary>
-public sealed class Employee
+namespace Personalregister
 {
-    public string Name { get; }
-    public decimal Salary { get; }
-
-    public Employee(string name, decimal salary)
+    // Una clase es una plantilla para crear objetos.
+    public class Employee
     {
-        if (string.IsNullOrWhiteSpace(name))
-        {
-            throw new ArgumentException(
-                "Namn krävs.",
-                nameof(name));
-        }
+        // Estos campos guardan los datos de cada empleado.
+        // public permite usarlos desde otras clases.
+        // string guarda texto. "" es un texto vacío.
+        public string Name = "";
 
-        if (salary < 0)
-        {
-            throw new ArgumentOutOfRangeException(
-                nameof(salary),
-                "Lönen får inte vara negativ.");
-        }
-
-        Name = name.Trim();
-        Salary = salary;
+        // decimal guarda números con decimales, como un salario.
+        public decimal Salary;
     }
 }
